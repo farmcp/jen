@@ -49,6 +49,11 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
+    puma (3.12.1)
+    rack (2.0.7)
+    rack-contrib (2.1.0)
+      rack (~> 2.0)
+    rake (12.3.2)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -67,7 +72,11 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
+  kramdown
   minima (~> 2.0)
+  puma
+  rack-contrib
+  rake
   tzinfo-data
 
 BUNDLED WITH
